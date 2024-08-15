@@ -1,0 +1,127 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:core="clr-namespace:WPFAppMouseSettingsHub.Core"
+                    xmlns:attachedProperties="clr-namespace:WPFAppMouseSettingsHub.Core.AttachedProperties">
+    
+    <!-- Generic Green Button -->
+    <Style x:Key="OutlinedRoundedButtonGreen" 
+           TargetType="Button">
+        <Setter Property="Background" Value="#22A686"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#1a7d65"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#115343"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!-- Green button with mouse properties -->
+    <Style x:Key="MouseContainerButtonGreen" 
+           TargetType="Button">
+        <Setter Property="Background" Value="#22A686"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver"
+                     Value="True">
+                <Setter Property="Background" 
+                        Value="#1a7d65"/>
+                <Setter Property="BorderBrush" 
+                        Value="Black"/>
+            </Trigger>
+            <Trigger Property="IsPressed" 
+                     Value="True">
+                <Setter Property="Background" 
+                        Value="#115343"/>
+                <Setter Property="BorderBrush" 
+                        Value="Black"/>
+            </Trigger>
+            <DataTrigger Binding="{Binding MouseNumber}" 
+                         Value="False">
+            </DataTrigger>
+            <DataTrigger Binding="{Binding MouseModel}"
+                         Value="">
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+
+
+    <!-- Generic White Button -->
+    <Style x:Key="OutlinedRoundedButtonWhite" 
+        TargetType="Button">
+        <Setter Property="Background" Value="white"/>
+        <Setter Property="BorderBrush" Value="Black"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                         BorderBrush="{TemplateBinding BorderBrush}"
+                         BorderThickness="{TemplateBinding BorderThickness}"
+                         CornerRadius="5">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#808080"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#727272"/>
+                <Setter Property="BorderBrush" Value="Black"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!-- MouseSettingsView tab switcher -->
+    <Style x:Key="HubTopButton"
+           TargetType="Button">
+        <Setter Property="Background" Value="#22A686"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
