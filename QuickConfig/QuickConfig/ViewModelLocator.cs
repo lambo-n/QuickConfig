@@ -1,8 +1,8 @@
-﻿using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
-using WPFAppMouseSettingsHub.MVVM.Model;
-using WPFAppMouseSettingsHub.MVVM.ViewModel;
+﻿using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
+using QuickConfig.MVVM.Model;
+using QuickConfig.MVVM.ViewModel;
 
-namespace WPFAppMouseSettingsHub
+namespace QuickConfig
 {
     public class ViewModelLocator
     {

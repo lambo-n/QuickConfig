@@ -6,12 +6,12 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Windows;
 using System.Windows.Input;
-using WPFAppMouseSettingsHub.Core;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
-using WPFAppMouseSettingsHub.MVVM.Model;
-using WPFAppMouseSettingsHub.MVVM.View.Windows;
+using QuickConfig.Core;
+using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
+using QuickConfig.MVVM.Model;
+using QuickConfig.MVVM.View.Windows;
 
-namespace WPFAppMouseSettingsHub.MVVM.ViewModel
+namespace QuickConfig.MVVM.ViewModel
 {
     public class MainViewModel : INotifyPropertyChanged
     {

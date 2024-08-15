@@ -5,13 +5,13 @@ using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls.Primitives;
 using System.Windows.Input;
-using WPFAppMouseSettingsHub.Core;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModels;
-using WPFAppMouseSettingsHub.MVVM.Model;
-using WPFAppMouseSettingsHub.MVVM.View.Windows;
+using QuickConfig.Core;
+using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
+using QuickConfig.DataAccess.ObjectModels;
+using QuickConfig.MVVM.Model;
+using QuickConfig.MVVM.View.Windows;
 
-namespace WPFAppMouseSettingsHub.MVVM.ViewModel
+namespace QuickConfig.MVVM.ViewModel
 {
     public class UserProfileViewModel : INotifyPropertyChanged
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace WPFAppMouseSettingsHub.Core
+namespace QuickConfig.Core
 {
     public static class CustomAttachedProperties
     {

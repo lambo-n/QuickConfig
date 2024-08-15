@@ -2,7 +2,7 @@
 using System.IO;
 using System.Windows.Media.Imaging;
 
-namespace WPFAppMouseSettingsHub.Core
+namespace QuickConfig.Core
 {
     public static class IconUtilities
     {

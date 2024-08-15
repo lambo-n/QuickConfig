@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Windows.Controls;
 
-namespace WPFAppMouseSettingsHub.MVVM.View.UserControls
+namespace QuickConfig.MVVM.View.UserControls
 {
 
     public partial class KeybindView : UserControl

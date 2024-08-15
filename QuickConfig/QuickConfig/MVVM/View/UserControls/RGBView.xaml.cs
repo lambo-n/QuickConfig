@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace WPFAppMouseSettingsHub.MVVM.View.UserControls
+namespace QuickConfig.MVVM.View.UserControls
 {
     /// <summary>
     /// Interaction logic for RGBView.xaml

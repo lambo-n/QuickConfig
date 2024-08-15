@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WPFAppMouseSettingsHub.BusinessLogic.InterfacesBLL;
-using WPFAppMouseSettingsHub.BusinessLogic;
-using WPFAppMouseSettingsHub.DataAccess.InterfacesDAL;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
-using WPFAppMouseSettingsHub.DataAccess;
-using WPFAppMouseSettingsHub.DataAcess;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModels;
+using QuickConfig.BusinessLogic.InterfacesBLL;
+using QuickConfig.BusinessLogic;
+using QuickConfig.DataAccess.InterfacesDAL;
+using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
+using QuickConfig.DataAccess;
+using QuickConfig.DataAcess;
+using QuickConfig.DataAccess.ObjectModels;
 
-namespace WPFAppMouseSettingsHub.MVVM.Model
+namespace QuickConfig.MVVM.Model
 {
     public class ModelFacade
     {

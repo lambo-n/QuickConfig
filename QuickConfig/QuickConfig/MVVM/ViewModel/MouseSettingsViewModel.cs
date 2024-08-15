@@ -1,11 +1,11 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows.Input;
-using WPFAppMouseSettingsHub.BusinessLogic;
-using WPFAppMouseSettingsHub.Core;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
+using QuickConfig.BusinessLogic;
+using QuickConfig.Core;
+using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
 
-namespace WPFAppMouseSettingsHub.MVVM.ViewModel
+namespace QuickConfig.MVVM.ViewModel
 {
     public class MouseSettingsViewModel : INotifyPropertyChanged
     {

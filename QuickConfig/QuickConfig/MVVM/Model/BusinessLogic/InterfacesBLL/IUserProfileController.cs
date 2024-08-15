@@ -1,7 +1,7 @@
-﻿using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
+﻿using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
 using System.Collections.Generic;
 
-namespace WPFAppMouseSettingsHub.BusinessLogic.InterfacesBLL
+namespace QuickConfig.BusinessLogic.InterfacesBLL
 {
     public interface IUserProfileController
     {

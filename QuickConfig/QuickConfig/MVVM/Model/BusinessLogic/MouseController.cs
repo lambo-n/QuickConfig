@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using WPFAppMouseSettingsHub.BusinessLogic.InterfacesBLL;
-using WPFAppMouseSettingsHub.DataAccess.InterfacesDAL;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
+using QuickConfig.BusinessLogic.InterfacesBLL;
+using QuickConfig.DataAccess.InterfacesDAL;
+using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
 
-namespace WPFAppMouseSettingsHub.BusinessLogic
+namespace QuickConfig.BusinessLogic
 {
     public class MouseController : IMouseController
     {

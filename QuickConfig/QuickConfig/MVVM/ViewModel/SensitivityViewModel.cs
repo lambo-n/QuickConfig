@@ -1,7 +1,7 @@
 ﻿using System.Windows.Input;
-using WPFAppMouseSettingsHub.Core;
+using QuickConfig.Core;
 
-namespace WPFAppMouseSettingsHub.MVVM.ViewModel
+namespace QuickConfig.MVVM.ViewModel
 {
     public class SensitivityViewModel
     {

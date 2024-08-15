@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
+using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
 
-namespace WPFAppMouseSettingsHub.DataAccess.ObjectModels
+namespace QuickConfig.DataAccess.ObjectModels
 {
     public class UserProfile : IUserProfile
     {

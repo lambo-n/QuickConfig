@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using WPFAppMouseSettingsHub.DataAccess.InterfacesDAL;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels;
-using WPFAppMouseSettingsHub.DataAccess.ObjectModels;
+using QuickConfig.DataAccess.InterfacesDAL;
+using QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels;
+using QuickConfig.DataAccess.ObjectModels;
 
-namespace WPFAppMouseSettingsHub.DataAcess
+namespace QuickConfig.DataAcess
 {
     public class UserProfileRepo : IUserProfileRepo
     {

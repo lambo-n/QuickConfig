@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace WPFAppMouseSettingsHub.DataAccess.ObjectModel.InterfacesObjectModels
+namespace QuickConfig.DataAccess.ObjectModel.InterfacesObjectModels
 {
     public interface IMouse
     {

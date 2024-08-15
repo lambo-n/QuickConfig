@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace WPFAppMouseSettingsHub.Core.AttachedProperties
+namespace QuickConfig.Core.AttachedProperties
 {
     public static class IntegerAttachedProperties
     {

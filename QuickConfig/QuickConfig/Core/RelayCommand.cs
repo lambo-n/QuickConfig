@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace WPFAppMouseSettingsHub.Core
+namespace QuickConfig.Core
 {
     public class RelayCommand : ICommand
     {

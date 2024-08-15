@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace WPFAppMouseSettingsHub.MVVM.View.Windows
+namespace QuickConfig.MVVM.View.Windows
 {
     /// <summary>
     /// Interaction logic for AddMouseWindow.xaml
